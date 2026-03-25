@@ -53,24 +53,6 @@ It allows developers and QA teams to quickly verify deep linking behavior in a c
 
 ---
 
-## 🧪 Running Tests
-
-From Xcode: Product → Test
-
-From the command line:
-
-```sh
-xcodebuild test -project DeepLinkTesterTV.xcodeproj -scheme DeepLinkTesterTV -destination 'platform=iOS Simulator,name=iPhone 17'
-```
-
-If the destination name doesn’t exist on your machine, list available simulators and pick one:
-
-```sh
-xcrun simctl list devices
-```
-
----
-
 ## 📱 App Icon:
 
 <p align="center">
