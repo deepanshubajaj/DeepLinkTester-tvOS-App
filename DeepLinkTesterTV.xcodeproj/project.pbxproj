@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D2F777132E9E3D160058D74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F776F72E9E3D130058D74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F776FE2E9E3D130058D74E;
+			remoteInfo = DeepLinkTesterTV;
+		};
+		D2F7771D2E9E3D160058D74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F776F72E9E3D130058D74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F776FE2E9E3D130058D74E;
+			remoteInfo = DeepLinkTesterTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2F776FF2E9E3D130058D74E /* DeepLinkTesterTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLinkTesterTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F777122E9E3D160058D74E /* DeepLinkTesterTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkTesterTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7771C2E9E3D160058D74E /* DeepLinkTesterTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkTesterTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D2F777362E9E48230058D74E /* Exceptions for "DeepLinkTesterTV" folder in "DeepLinkTesterTV" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D2F776FE2E9E3D130058D74E /* DeepLinkTesterTV */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D2F777012E9E3D130058D74E /* DeepLinkTesterTV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D2F777362E9E48230058D74E /* Exceptions for "DeepLinkTesterTV" folder in "DeepLinkTesterTV" target */,
+			);
+			path = DeepLinkTesterTV;
+			sourceTree = "<group>";
+		};
+		D2F777152E9E3D160058D74E /* DeepLinkTesterTVTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DeepLinkTesterTVTests;
+			sourceTree = "<group>";
+		};
+		D2F7771F2E9E3D160058D74E /* DeepLinkTesterTVUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DeepLinkTesterTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F776FC2E9E3D130058D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F7770F2E9E3D160058D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F777192E9E3D160058D74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2F776F62E9E3D130058D74E = {
+			isa = PBXGroup;
+			children = (
+				D2F777012E9E3D130058D74E /* DeepLinkTesterTV */,
+				D2F777152E9E3D160058D74E /* DeepLinkTesterTVTests */,
+				D2F7771F2E9E3D160058D74E /* DeepLinkTesterTVUITests */,
+				D2F777002E9E3D130058D74E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F777002E9E3D130058D74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F776FF2E9E3D130058D74E /* DeepLinkTesterTV.app */,
+				D2F777122E9E3D160058D74E /* DeepLinkTesterTVTests.xctest */,
+				D2F7771C2E9E3D160058D74E /* DeepLinkTesterTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2F776FE2E9E3D130058D74E /* DeepLinkTesterTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F777262E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTV" */;
+			buildPhases = (
+				D2F776FB2E9E3D130058D74E /* Sources */,
+				D2F776FC2E9E3D130058D74E /* Frameworks */,
+				D2F776FD2E9E3D130058D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D2F777012E9E3D130058D74E /* DeepLinkTesterTV */,
+			);
+			name = DeepLinkTesterTV;
+			packageProductDependencies = (
+			);
+			productName = DeepLinkTesterTV;
+			productReference = D2F776FF2E9E3D130058D74E /* DeepLinkTesterTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2F777112E9E3D160058D74E /* DeepLinkTesterTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F777292E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTVTests" */;
+			buildPhases = (
+				D2F7770E2E9E3D160058D74E /* Sources */,
+				D2F7770F2E9E3D160058D74E /* Frameworks */,
+				D2F777102E9E3D160058D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F777142E9E3D160058D74E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2F777152E9E3D160058D74E /* DeepLinkTesterTVTests */,
+			);
+			name = DeepLinkTesterTVTests;
+			packageProductDependencies = (
+			);
+			productName = DeepLinkTesterTVTests;
+			productReference = D2F777122E9E3D160058D74E /* DeepLinkTesterTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2F7771B2E9E3D160058D74E /* DeepLinkTesterTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F7772C2E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTVUITests" */;
+			buildPhases = (
+				D2F777182E9E3D160058D74E /* Sources */,
+				D2F777192E9E3D160058D74E /* Frameworks */,
+				D2F7771A2E9E3D160058D74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F7771E2E9E3D160058D74E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2F7771F2E9E3D160058D74E /* DeepLinkTesterTVUITests */,
+			);
+			name = DeepLinkTesterTVUITests;
+			packageProductDependencies = (
+			);
+			productName = DeepLinkTesterTVUITests;
+			productReference = D2F7771C2E9E3D160058D74E /* DeepLinkTesterTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2F776F72E9E3D130058D74E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D2F776FE2E9E3D130058D74E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D2F777112E9E3D160058D74E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D2F776FE2E9E3D130058D74E;
+					};
+					D2F7771B2E9E3D160058D74E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D2F776FE2E9E3D130058D74E;
+					};
+				};
+			};
+			buildConfigurationList = D2F776FA2E9E3D130058D74E /* Build configuration list for PBXProject "DeepLinkTesterTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2F776F62E9E3D130058D74E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D2F777002E9E3D130058D74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2F776FE2E9E3D130058D74E /* DeepLinkTesterTV */,
+				D2F777112E9E3D160058D74E /* DeepLinkTesterTVTests */,
+				D2F7771B2E9E3D160058D74E /* DeepLinkTesterTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2F776FD2E9E3D130058D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F777102E9E3D160058D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F7771A2E9E3D160058D74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F776FB2E9E3D130058D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F7770E2E9E3D160058D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F777182E9E3D160058D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2F777142E9E3D160058D74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F776FE2E9E3D130058D74E /* DeepLinkTesterTV */;
+			targetProxy = D2F777132E9E3D160058D74E /* PBXContainerItemProxy */;
+		};
+		D2F7771E2E9E3D160058D74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F776FE2E9E3D130058D74E /* DeepLinkTesterTV */;
+			targetProxy = D2F7771D2E9E3D160058D74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2F777242E9E3D160058D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		D2F777252E9E3D160058D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2F777272E9E3D160058D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 85;
+				DEVELOPMENT_TEAM = V743M68NY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinkTesterTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepLink-TV-Test";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The DeepLinkTesterTV uses your location to help identify relevant teams and content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to deliver personalized content to you.";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "Some content may access TV Provider";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.DeepLinkTesterTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
+			};
+			name = Debug;
+		};
+		D2F777282E9E3D160058D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 85;
+				DEVELOPMENT_TEAM = V743M68NY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinkTesterTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepLink-TV-Test";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The DeepLinkTesterTV uses your location to help identify relevant teams and content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to deliver personalized content to you.";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "Some content may access TV Provider";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.DeepLinkTesterTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
+			};
+			name = Release;
+		};
+		D2F7772A2E9E3D160058D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepanshu-Bajaj.DeepLinkTesterTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLinkTesterTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepLinkTesterTV";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		D2F7772B2E9E3D160058D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepanshu-Bajaj.DeepLinkTesterTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLinkTesterTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepLinkTesterTV";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Release;
+		};
+		D2F7772D2E9E3D160058D74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepanshu-Bajaj.DeepLinkTesterTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = DeepLinkTesterTV;
+			};
+			name = Debug;
+		};
+		D2F7772E2E9E3D160058D74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TT9FNQVYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepanshu-Bajaj.DeepLinkTesterTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = DeepLinkTesterTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2F776FA2E9E3D130058D74E /* Build configuration list for PBXProject "DeepLinkTesterTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F777242E9E3D160058D74E /* Debug */,
+				D2F777252E9E3D160058D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F777262E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F777272E9E3D160058D74E /* Debug */,
+				D2F777282E9E3D160058D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F777292E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F7772A2E9E3D160058D74E /* Debug */,
+				D2F7772B2E9E3D160058D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F7772C2E9E3D160058D74E /* Build configuration list for PBXNativeTarget "DeepLinkTesterTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F7772D2E9E3D160058D74E /* Debug */,
+				D2F7772E2E9E3D160058D74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2F776F72E9E3D130058D74E /* Project object */;
+}
